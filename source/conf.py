@@ -21,9 +21,9 @@ from datetime import datetime, timezone
 
 # -- Project information -----------------------------------------------------
 
-project = "Open Ephys Doc Template"
-copyright = "2010-{}, Open Ephys & Contributors".format(datetime.now(timezone.utc).year)
-author = "Open Ephys & Contributors"
+project = "KineMouse Wheel metric"
+copyright = "2024-{}, 3Dneuro & Contributors".format(datetime.now(timezone.utc).year)
+author = "3Dneuro & Contributors"
 
 # The short X.Y version
 version = "0.0"
@@ -78,7 +78,7 @@ todo_include_todos = True
 # a list of builtin themes.
 #
 html_theme = "pydata_sphinx_theme"
-html_logo = "_static/images/oe_logo_name.svg"
+html_logo = "_static/images/3Dneuro.svg"
 html_scaled_image_link = True
 html_title = project
 
@@ -186,10 +186,10 @@ html_theme_options = {
     "navbar_end": ["navbar-icon-links"],
     "navbar_align": "content",
     "footer_start": ["copyright"],
-     "external_links": [{"name": "Open Ephys", "url": "https://open-ephys.org"},],
+     "external_links": [{"name": "3Dneuro", "url": "https://3dneuro.com"},],
     'icon_links': [
         dict(name='GitHub',
-             url='https://github.com/open-ephys/doc-template',
+             url='https://github.com/3Dneuro/KineMouseMetric-doc',
              icon='fab fa-github'),
         dict(name='Twitter',
              url='https://twitter.com/openephys',
